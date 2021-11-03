@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>javascript project practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+  <body>
+<div class="project">
+  <div class="ageindays">
+    <div class="heading1">
+      <h2> <strong>chalange-1:</strong> your age in days </h2>
+    </div>
+    <div class="buttons">
+      <div class="btn1">
+        <button type="button" name="button" onclick="ageindays()" class="btn btn-primary">know your age</button>
+      </div>
+      <div class="btn2">
+        <button type="button" name="button" class="btn btn-danger" onclick="remove()">reset</button>
+      </div>
+    </div>
+    <div>
+      <h1 id="final-result"></h1>
+    </div>
+  </div>
+  <hr>
+  <div class="imagegenerator">
+    <div class="heading1">
+      <h2> <strong>chalange-2:</strong> photo generator </h2>
+    </div>
+    <div class="buttons">
+      <div class="btn1">
+        <button type="button" name="button" onclick="altamash()"class="btn btn-primary">altamish</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="aamir()"class="btn btn-primary">Aamir</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="kaif()"class="btn btn-primary">Kaif</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="aalima()"class="btn btn-primary">Aalima</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="asjad()"class="btn btn-primary">Asjad</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="faraz()"class="btn btn-primary">Faraz</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="waseem()"class="btn btn-primary">Waseem</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="bdepapa()"class="btn btn-primary">Bde papa</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="inzamamul()"class="btn btn-primary">Inzamamul</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="azhar()"class="btn btn-primary">Azhar</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="tanveer()"class="btn btn-primary">Tanveer</button>
+      </div>
+      <div class="btn1">
+        <button type="button" name="button" onclick="tau()"class="btn btn-primary">Tau</button>
+      </div>
+      <div class="btn2">
+        <button type="button" name="button" onclick="photoremover()"class="btn btn-danger">reset</button>
+      </div>
+    </div>
+    <div class="flex-box-container" id="getphoto">
+    </div>
+  </div>
+  <hr>
+  <div class="rock-paper-scissor">
+    <div class="heading1">
+      <h2> <strong>chalange-3:</strong> rock paper scissor </h2>
+    </div>
+    <div class="rockpaperscissorgame" id="rockpaperscissorgame">
+      <img src="rock.jpg" alt="rock" onclick="rpsgame(this)" id="rock" width="150px" height="150px">
+      <img src="paper.jpg" alt="paper" onclick="rpsgame(this)" id="paper" width="150px" height="150px">
+      <img src="scissor.jpg" alt="scissor" onclick="rpsgame(this)" id="scissor" width="150px" height="150px">
+    </div>
+  </div>
+  <hr>
+  <div class="changebtncolor">
+    <div class="heading1">
+      <h2> <strong>chalange-4:</strong> change the collor of buttons </h2>
+    </div>
+    <div class="flexdiv">
+      <select class="btncolor" name="backdrop" id="background" onchange="buttoncolorchange(this)">
+        <option value="random">Random</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="reset">Reset</option>
+      </select>
+      <button type="button" name="button" class="btn btn-primary">facebook!</button>
+      <button type="button" name="button" class="btn btn-danger">Yahoo!</button>
+      <button type="button" name="button" class="btn btn-warning">Google!</button>
+      <button type="button" name="button" class="btn btn-success">wee!</button>
+    </div>
+  </div>
+  <hr>
+  <div class="blackjack">
+    <div class="heading1">
+      <h2> <strong>chalange-5:</strong> blackjack </h2>
+      <h3><span id="showresult">Let's play</span></h3>
+    </div>
+    <div class="backgroundimage">
+      <div class="play-area">
+        <div class="human" id="your-box">
+          <h2>You: <span id="yourblackjackscore">0</span></h2>
+        </div>
+        <div class="bot" id="dealer-box">
+          <h2>Computer: <span id="dealerblackjackscore">0</span></h2>
+        </div>
+      </div>
+      <div class="button-area">
+        <div class="buttons">
+          <button type="button" name="hit" class="btn btn-primary" id="hit">You</button>
+          <button type="button" name="stand" class="btn btn-warning" id="stand" >Computer</button>
+          <button type="button" name="deal" class="btn btn-danger" id="deal" >Result</button>
+        </div>
+      </div>
+    </div>
+    <div class="scoreboard">
+      <table class="center">
+        <tr>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Draws</th>
+        </tr>
+        <tr>
+          <td><span id="wins">0</span></td>
+          <td><span id="losses">0</span></td>
+          <td><span id="draws">0</span></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+  </body>
+</html>

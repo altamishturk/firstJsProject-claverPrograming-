@@ -1,0 +1,231 @@
+*{
+}
+.project{
+
+  margin: 50px;
+  border: 2px solid black;
+}
+.ageindays{
+  margin: 20px;
+}
+.heading1{
+  margin: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.buttons{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.btn1{margin-right: 100px;margin: 10px 10px;}
+.btn2{margin: 10px 10px;}
+#final-result{
+  margin: 20px;
+  height: 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flex-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.flex-box-container img {
+  margin: 20px;
+  width: 200px;
+  height: auto;
+  align-items: center;
+  box-shadow: 5px 10px 50px rgba(0,0,0,0.7);
+}
+
+.flex-box-container img:hover {
+  margin: 20px;
+  width: 250spx;
+  height: auto;
+  align-items: center;
+  box-shadow: 5px 10px 50px rgba(0,0,0,0.1);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.rockpaperscissorgame {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rockpaperscissorgame img:hover {
+  box-shadow: 5px 10px 50px rgba(37,50,233,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flexdiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.play-area {
+  background-color: green;
+  border: 6px solid #008000;
+}
+
+.human {border: 2px solid black;}
+.bot {border: 2px solid black;}
+
+.backgroundimage {
+  background-imag: url("blackjack.jpg");
+  background-color: #008000;
+  border: 8px solid black;
+}
+
+.play-area {
+  display: flex;
+}
+
+.human,.bot{
+  flex: 1;
+  height: 372.95px;
+  text-align: center;
+}
+
+.human h2 , .bot h2 {text-align: center; width: 100%;}
+
+.human img , .bot img {
+  width: 100px;
+  height: auto;
+  margin: 10px
+}
+
+table th , table td {
+  border: 1px solid black;
+}
+.scoreboard {margin: 15px;}
+
+table.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-area {
+  border-top: 6px solid black;
+}
+
+.button-area .buttons button {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/*
+.play-area {
+  display: flex;
+  flex: 1;
+}
+.play-area div{flex: 1;}
+
+.human , .bot {
+  border: 2px solid black;
+}
+
+.bot,.human h2  {
+  text-align: center;
+  color: #fff;
+}
+.bot,.human {height: 350px;}
+.buttons button {
+  margin: 0px 5px 15px 5px;
+}
+
+
+table th , table td {
+  border: 1px solid black;
+}
+.scoreboard {margin-bottom: 15px;}
+table.center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.human,.bot{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.human h2 {
+  width: 100%;
+}
+
+.human img {
+  margin: 20px;
+
+  width: 100px;
+  height: auto;
+  align-items: center;
+  box-shadow: 5px 10px 50px rgba(0,0,0,0.7);
+} */
